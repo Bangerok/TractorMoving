@@ -13,6 +13,7 @@
 
 <div align="center">
     <img src="https://img.shields.io/github/last-commit/FunProjectsForSoul/TractorMoving" height="25" alt="last-commit" />
+    <img src="https://wakatime.com/badge/github/FunProjectsForSoul/TractorMoving.svg" height="25" alt="time-with-code" />
     <img src="https://img.shields.io/github/v/release/FunProjectsForSoul/TractorMoving" height="25" alt="last-release" />
     <img src="https://tokei.rs/b1/github/FunProjectsForSoul/TractorMoving?category=code" height="25" alt="code-lines" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=FunProjectsForSoul_TractorMoving&metric=bugs" height="25" alt="sonar-cloud-bugs" />
@@ -42,7 +43,7 @@ ___
 
 * **JDK**: 16 and higher;
 
-### 📋 Instructions for starting the project
+### 📋 Instructions for starting
 ___
 
 *All commands are executed in the console.*
@@ -54,12 +55,12 @@ ___
 6. After completing 5 points — a folder with the name **“target”** will be created. We go into it: `go target`;
 7. Inside there will be a JAR file named **“tractor-1.0.0.jar”**.
    We execute the command: `java -jar tractor-1.0.0.jar`;
-8. Console application will start **(see: Console interface)**.
+8. Console application will start **(see: Application interface)**.
 
 ```java
 public class TractorApplication {
   
-   public static void main(String[] args) {
+   public static void main(String[] args) { // Used to launch the application.
       run();
    }
    
@@ -70,7 +71,7 @@ public class TractorApplication {
 ### 💻 Application interface
 ___
 <div align="center">
-   <img style="border: solid #465241;" src="https://raw.githubusercontent.com/FunProjectsForSoul/TractorMoving/master/assets/tractor-moving.gif" alt="gui-interface" />
+   <img style="border: solid #465241;" src="https://raw.githubusercontent.com/FunProjectsForSoul/TractorMoving/master/assets/tractor-moving.gif" alt="console-interface" />
 </div>
 
 ### 🎫 License
